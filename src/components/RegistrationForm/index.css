@@ -1,0 +1,114 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  .app-container {
+    justify-content: flex-start;
+  }
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.login-heading {
+  font-family: roboto;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #ea580c;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 340px;
+  align-self: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 40px 40px;
+  border-radius: 5px;
+}
+
+.label-element {
+  font-family: roboto;
+  font-size: 12px;
+  color: #475569;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.name-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.input-element {
+  border-radius: 4px;
+  border: 2px solid #cbd2d9;
+  outline: none;
+  font-family: roboto;
+  padding: 10px;
+  font-size: 14px;
+}
+.submit-btn {
+  background-color: #ea580c;
+  height: 34px;
+  font-family: roboto;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .submit-btn {
+    align-self: center;
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+  }
+}
+.error {
+  color: #ff0b37;
+  margin-top: 4px;
+  font-family: roboto;
+  margin-left: 2px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.success-page {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 340px;
+}
+.another-btn {
+  background-color: #ea580c;
+  height: 34px;
+  font-family: roboto;
+  font-size: 14px;
+  width: 80%;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
+.success-message {
+  color: #475569;
+
+  font-family: roboto;
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  text-align: center;
+}
